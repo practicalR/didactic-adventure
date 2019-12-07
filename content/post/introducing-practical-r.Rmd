@@ -32,7 +32,7 @@ Are you struggling to learn R so you can create banging data visualizations and 
 
 Are you full of excitement for your new R project but finding it difficult to quickly achieve the results you want and need?
 
-> Even coming from other programming languages may be problematic because R does some things a little bit differently.  
+> Coming from a background in other programming languages may be problematic because R does some things a little bit differently.  
 
 Are you taking a course in R and finding that you can't keep up with the class and need some background?
 
