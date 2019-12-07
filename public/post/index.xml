@@ -27,21 +27,6 @@ Or are you just interested in learning more about R and what R can do?
     </item>
     
     <item>
-      <title>Introduction</title>
-      <link>/intro-practical-r/</link>
-      <pubDate>Fri, 06 Dec 2019 21:13:14 -0500</pubDate>
-      
-      <guid>/intro-practical-r/</guid>
-      <description>IntroductionData VisualizationData ScienceIntroductionAre you struggling to learn R so you can create banging data visualizations and produce data science projects that add value?
-You are not alone. Analyzing data is now common to a lot of professions that may not have any background in programming or computer science.
-Are you full of excitement for your new R project but finding it difficult to quickly achieve the results you want and need?
-Coming from a background in other programming languages may be problematic because R does some things a little bit differently.
-Are you taking a course in R and finding that you can’t keep up with the class and need some background?
-Or are you just interested in learning more about R and what R can do?
-I would like to help you do more with R. I want to inspire you to create your own data visualizations, master data science, or develop your own data stories.</description>
-    </item>
-    
-    <item>
       <title>Markdown Syntax Guide</title>
       <link>/markdown-syntax-guide/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>

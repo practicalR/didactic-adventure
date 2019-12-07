@@ -27,18 +27,16 @@ Or are you just interested in learning more about R and what R can do?
     </item>
     
     <item>
-      <title>Introduction</title>
-      <link>/intro-practical-r/</link>
-      <pubDate>Fri, 06 Dec 2019 21:13:14 -0500</pubDate>
+      <title>About Practical R</title>
+      <link>/about-practical-r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/intro-practical-r/</guid>
-      <description>IntroductionData VisualizationData ScienceIntroductionAre you struggling to learn R so you can create banging data visualizations and produce data science projects that add value?
-You are not alone. Analyzing data is now common to a lot of professions that may not have any background in programming or computer science.
-Are you full of excitement for your new R project but finding it difficult to quickly achieve the results you want and need?
-Coming from a background in other programming languages may be problematic because R does some things a little bit differently.
-Are you taking a course in R and finding that you can’t keep up with the class and need some background?
-Or are you just interested in learning more about R and what R can do?
-I would like to help you do more with R. I want to inspire you to create your own data visualizations, master data science, or develop your own data stories.</description>
+      <guid>/about-practical-r/</guid>
+      <description>Practical RD.J. ForbesPractical RPractical R, the blog, is built using Hugo, an open source static site generator available under the Apache Licence 2.0.. Hugo provides the ability to combine Markdown, R Markdown and HTML content files and uses shortcodes for adding rich content. This lets me focus on the content, not the blog.
+Websites built with Hugo are extremely fast, secure and can be deployed anywhere.
+Learn more or contribute on GitHub.
+D.J. ForbesI have a passion for data science and the transformative power of data visualization and design to simplify and elevate communication and to engage and inspire people everywhere.
+I first encountered R as a graduate student working on my Ph.D in 2011. I was looking for a tool to do analysis of a spatio-temporal data set. Commercial Geographic Information Systems (GIS) are not capable of doing that kind of analysis.</description>
     </item>
     
   </channel>
