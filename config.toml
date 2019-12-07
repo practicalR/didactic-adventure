@@ -19,7 +19,7 @@ googleAnalytics = ""
 summaryLength=150
 
 [permalinks]
-  post = "/:year/:month/:day/:slug/"
+  post = "/:slug/"
   page = "/:slug/"
 
 [taxonomies]

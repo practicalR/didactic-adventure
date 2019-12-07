@@ -13,10 +13,10 @@
     
     <item>
       <title>Introduction</title>
-      <link>/2019/12/06/intro-practical-r/</link>
+      <link>/intro-practical-r/</link>
       <pubDate>Fri, 06 Dec 2019 21:13:14 -0500</pubDate>
       
-      <guid>/2019/12/06/intro-practical-r/</guid>
+      <guid>/intro-practical-r/</guid>
       <description>IntroductionMy name is D. J. Forbes, and I want to share practical R tips, tricks, and projects with you. I hope you find the site useful.
 Topics covered include anything to do with R, especially new R packages, geospatial analysis using R, GIS and mapping with R, statistics with R, and data science with R. On occasion there may even be posts on NBA basketball statistics focused mainly on the San Antonio Spurs.
 I’ll be sharing code like this:
