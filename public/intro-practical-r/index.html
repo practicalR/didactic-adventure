@@ -85,26 +85,32 @@
 <div id="TOC">
 <ul>
 <li><a href="#introduction">Introduction</a></li>
-<li><a href="#data-visualization">Data Visualization</a></li>
-<li><a href="#data-science">Data Science</a></li>
+<li><a href="#data-visualization">Data Visualization</a><ul>
+<li><a href="#figure-reffighist">Figure <a href="#fig:hist">1</a></a></li>
+</ul></li>
+<li><a href="#data-science">Data Science</a><ul>
+<li><a href="#figure-reffigirisscattermatrix">Figure <a href="#fig:irisscattermatrix">2</a></a></li>
+</ul></li>
 </ul>
 </div>
 
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
+<blockquote>
 <p>Are you struggling to learn R so you can create beautiful and effect data visualizations and produce data science projects that add value?</p>
-<blockquote>
+</blockquote>
 <p>You are not alone. Analyzing data is now common to a lot of professions that may not have any background in programming or computer science.</p>
-</blockquote>
+<blockquote>
 <p>Are you full of excitement for your new R project but finding it difficult to quickly achieve the results you want and need?</p>
-<blockquote>
+</blockquote>
 <p>Coming from a background in other programming languages may be problematic because R does some things a little bit differently.</p>
-</blockquote>
-<p>Are you taking a course in R and finding that you can’t keep up with the class and need some background?</p>
-<p>Or are you just interested in learning more about R and what R can do?</p>
 <blockquote>
-<p>I would like to help you do more with R. I want to inspire you to create your own data visualizations, master data science, or develop your own data stories. I want to share practical R tips, tricks, and complete projects with you.</p>
+<p>Are you taking a course in R and finding that you can’t keep up with the class and need some background?</p>
 </blockquote>
+<blockquote>
+<p>Or are you just interested in learning more about R and what R can do?</p>
+</blockquote>
+<p>I would like to help you do more with R. I want to inspire you to create your own data visualizations, master data science, or develop your own data stories. I want to share practical R tips, tricks, and complete projects with you.</p>
 <p>Topics covered include anything having to do with R. This blog will focus especially on</p>
 <ul>
 <li>new R packages</li>
@@ -114,7 +120,7 @@
 <li>data science with R.</li>
 </ul>
 <blockquote>
-<p>On occasion there may even be posts focused on NBA basketball statistics (<a href="https://www.nba.com/spurs/">#GoSpursGo!</a>).</p>
+<p>On occasion there may even be posts focused on NBA basketball statistics (<a href="https://www.nba.com/spurs/" target="_blank">#GoSpursGo!</a>).</p>
 </blockquote>
 <p>Using both example data and “real” data, I’ll be sharing code like this:</p>
 <pre class="r"><code>data(iris)
@@ -129,7 +135,8 @@ str(iris)
 <div id="data-visualization" class="section level1">
 <h1>Data Visualization</h1>
 <p>I’ll be sharing data visualizations as well, including mapping and GIS with R.</p>
-<p>See Figure <a href="#fig:hist">1</a> for an example:</p>
+<div id="figure-reffighist" class="section level2">
+<h2>Figure <a href="#fig:hist">1</a></h2>
 <pre class="r"><code>hist(iris$Sepal.Width, 
      main = &quot;Histogram of Sepal Width&quot;, 
      xlab = &quot;Sepal Width&quot;, 
@@ -137,17 +144,29 @@ str(iris)
      col = rcartocolor::carto_pal(2,&quot;Fall&quot;),
      freq = TRUE)</code></pre>
 <div class="figure"><span id="fig:hist"></span>
-<img src="/post/introducing-practical-r_files/figure-html/hist-1.png" alt="A histogram of Sepal Width measurements in Edar Anderson's Iris Data." width="672" />
+<img src="/post/introducing-practical-r_files/figure-html/hist-1.png" alt="A histogram of Sepal Width measurements in Edgar Anderson's Iris Data." width="672" />
 <p class="caption">
-Figure 1: A histogram of Sepal Width measurements in Edar Anderson’s Iris Data.
+Figure 1: A histogram of Sepal Width measurements in Edgar Anderson’s Iris Data.
 </p>
+</div>
 </div>
 </div>
 <div id="data-science" class="section level1">
 <h1>Data Science</h1>
-<p>Together we will explore “doing” data science with R. See Figure <a href="#fig:irisscattermatrix"><strong>??</strong></a>.</p>
-<pre class="r"><code>pairs(iris[1:4], main = &quot;Scatterplot Matrix (Iris Data)&quot;, pch = 21, bg = c(&quot;red&quot;, &quot;green3&quot;, &quot;blue&quot;)[unclass(iris$Species)])</code></pre>
-<p><img src="/post/introducing-practical-r_files/figure-html/irisscattermatrix-1.png" width="672" /></p>
+<p>And together we will explore “doing” data science with R.</p>
+<div id="figure-reffigirisscattermatrix" class="section level2">
+<h2>Figure <a href="#fig:irisscattermatrix">2</a></h2>
+<pre class="r"><code>pairs(iris[1:4], 
+      main = &quot;Scatterplot Matrix (Iris Data)&quot;, 
+      pch = 21, 
+      bg = c(&quot;red&quot;, &quot;green3&quot;, &quot;blue&quot;)[unclass(iris$Species)])</code></pre>
+<div class="figure"><span id="fig:irisscattermatrix"></span>
+<img src="/post/introducing-practical-r_files/figure-html/irisscattermatrix-1.png" alt="Scatterplot Matrix of Edgar Anderson's Iris Data." width="672" />
+<p class="caption">
+Figure 2: Scatterplot Matrix of Edgar Anderson’s Iris Data.
+</p>
+</div>
+</div>
 </div>
 
         </div>
@@ -172,7 +191,7 @@ Figure 1: A histogram of Sepal Width measurements in Edar Anderson’s Iris Data
                         
                         <a href="/tags/r-markdown/">R Markdown</a>&emsp;
                         
-                        <a href="/tags/regression/">regression</a>&emsp;
+                        <a href="/tags/scatterplot/">scatterplot</a>&emsp;
                         
                 </span>
                 
@@ -242,7 +261,7 @@ Figure 1: A histogram of Sepal Width measurements in Edar Anderson’s Iris Data
 
     <aside class="widget widget_tag_cloud">
         <h2>Tags</h2>
-        <div class="tagcloud"><a class="tag-cloud-link" href="/tags/about/" title="about" style="font-size: 12pt;">About</a>&emsp;<a class="tag-cloud-link" href="/tags/css/" title="css" style="font-size: 12pt;">css</a>&emsp;<a class="tag-cloud-link" href="/tags/emoji/" title="emoji" style="font-size: 12pt;">emoji</a>&emsp;<a class="tag-cloud-link" href="/tags/html/" title="html" style="font-size: 12pt;">html</a>&emsp;<a class="tag-cloud-link" href="/tags/markdown/" title="markdown" style="font-size: 12pt;">markdown</a>&emsp;<a class="tag-cloud-link" href="/tags/plot/" title="plot" style="font-size: 12pt;">plot</a>&emsp;<a class="tag-cloud-link" href="/tags/practical-r/" title="practical-r" style="font-size: 12pt;">Practical R</a>&emsp;<a class="tag-cloud-link" href="/tags/privacy/" title="privacy" style="font-size: 12pt;">privacy</a>&emsp;<a class="tag-cloud-link" href="/tags/r/" title="r" style="font-size: 12pt;">R</a>&emsp;<a class="tag-cloud-link" href="/tags/r-markdown/" title="r-markdown" style="font-size: 12pt;">R Markdown</a>&emsp;<a class="tag-cloud-link" href="/tags/regression/" title="regression" style="font-size: 12pt;">regression</a>&emsp;<a class="tag-cloud-link" href="/tags/shortcodes/" title="shortcodes" style="font-size: 12pt;">shortcodes</a>&emsp;<a class="tag-cloud-link" href="/tags/text/" title="text" style="font-size: 12pt;">text</a>&emsp;<a class="tag-cloud-link" href="/tags/themes/" title="themes" style="font-size: 12pt;">themes</a>&emsp;
+        <div class="tagcloud"><a class="tag-cloud-link" href="/tags/about/" title="about" style="font-size: 12pt;">About</a>&emsp;<a class="tag-cloud-link" href="/tags/css/" title="css" style="font-size: 12pt;">css</a>&emsp;<a class="tag-cloud-link" href="/tags/emoji/" title="emoji" style="font-size: 12pt;">emoji</a>&emsp;<a class="tag-cloud-link" href="/tags/html/" title="html" style="font-size: 12pt;">html</a>&emsp;<a class="tag-cloud-link" href="/tags/markdown/" title="markdown" style="font-size: 12pt;">markdown</a>&emsp;<a class="tag-cloud-link" href="/tags/plot/" title="plot" style="font-size: 12pt;">plot</a>&emsp;<a class="tag-cloud-link" href="/tags/practical-r/" title="practical-r" style="font-size: 12pt;">Practical R</a>&emsp;<a class="tag-cloud-link" href="/tags/privacy/" title="privacy" style="font-size: 12pt;">privacy</a>&emsp;<a class="tag-cloud-link" href="/tags/r/" title="r" style="font-size: 12pt;">R</a>&emsp;<a class="tag-cloud-link" href="/tags/r-markdown/" title="r-markdown" style="font-size: 12pt;">R Markdown</a>&emsp;<a class="tag-cloud-link" href="/tags/scatterplot/" title="scatterplot" style="font-size: 12pt;">scatterplot</a>&emsp;<a class="tag-cloud-link" href="/tags/shortcodes/" title="shortcodes" style="font-size: 12pt;">shortcodes</a>&emsp;<a class="tag-cloud-link" href="/tags/text/" title="text" style="font-size: 12pt;">text</a>&emsp;<a class="tag-cloud-link" href="/tags/themes/" title="themes" style="font-size: 12pt;">themes</a>&emsp;
         </div>
     </aside>
 

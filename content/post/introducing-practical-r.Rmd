@@ -5,7 +5,7 @@ description: "Introducing Practical R"
 date: 2019-12-06T21:13:14-05:00
 publishdate: 2019-12-06T21:13:14-05:00
 categories: ["Introduction"]
-tags: ["R Markdown", "plot", "regression"]
+tags: ["R Markdown", "plot", "scatterplot"]
 slug: "intro-practical-r"
 output:
   blogdown::html_page:
@@ -27,19 +27,19 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 # Introduction
 
-Are you struggling to learn R so you can create beautiful and effect data visualizations and produce data science projects that add value?  
+> Are you struggling to learn R so you can create beautiful and effect data visualizations and produce data science projects that add value?  
 
-> You are not alone.  Analyzing data is now common to a lot of professions that may not have any background in programming or computer science.  
+You are not alone.  Analyzing data is now common to a lot of professions that may not have any background in programming or computer science.  
 
-Are you full of excitement for your new R project but finding it difficult to quickly achieve the results you want and need?
+> Are you full of excitement for your new R project but finding it difficult to quickly achieve the results you want and need?
 
-> Coming from a background in other programming languages may be problematic because R does some things a little bit differently.  
+Coming from a background in other programming languages may be problematic because R does some things a little bit differently.  
 
-Are you taking a course in R and finding that you can't keep up with the class and need some background?
+> Are you taking a course in R and finding that you can't keep up with the class and need some background?
 
-Or are you just interested in learning more about R and what R can do?
+> Or are you just interested in learning more about R and what R can do?
 
-> I would like to help you do more with R.  I want to inspire you to create your own data visualizations, master data science, or develop your own data stories.  I want to share practical R tips, tricks, and complete projects with you.  
+I would like to help you do more with R.  I want to inspire you to create your own data visualizations, master data science, or develop your own data stories.  I want to share practical R tips, tricks, and complete projects with you.  
 
 Topics covered include anything having to do with R.  This blog will focus especially on 
 
@@ -49,7 +49,7 @@ Topics covered include anything having to do with R.  This blog will focus espec
 * statistics with R
 * data science with R. 
 
-> On occasion there may even be posts focused on NBA basketball statistics ([#GoSpursGo!](https://www.nba.com/spurs/)).
+> On occasion there may even be posts focused on NBA basketball statistics ([#GoSpursGo!](https://www.nba.com/spurs/){target="_blank"}).
 
 Using both example data and "real" data, I’ll be sharing code like this:
 
@@ -63,9 +63,9 @@ str(iris)
 
 I’ll be sharing data visualizations as well, including mapping and GIS with R.  
 
-See Figure \@ref(fig:hist) for an example:
+## Figure \@ref(fig:hist)
 
-```{r hist, fig.cap="A histogram of Sepal Width measurements in Edar Anderson's Iris Data.", tidy=FALSE}
+```{r hist, fig.cap="A histogram of Sepal Width measurements in Edgar Anderson's Iris Data.", tidy=FALSE}
 hist(iris$Sepal.Width, 
      main = "Histogram of Sepal Width", 
      xlab = "Sepal Width", 
@@ -76,10 +76,15 @@ hist(iris$Sepal.Width,
 
 # Data Science
 
-Together we will explore "doing" data science with R.  See Figure \@ref(fig:irisscattermatrix).
+And together we will explore "doing" data science with R.  
 
-```{r irisscattermatrix}
-pairs(iris[1:4], main = "Scatterplot Matrix (Iris Data)", pch = 21, bg = c("red", "green3", "blue")[unclass(iris$Species)])
+## Figure \@ref(fig:irisscattermatrix)  
+
+```{r irisscattermatrix, fig.cap="Scatterplot Matrix of Edgar Anderson's Iris Data.", tidy=FALSE}
+pairs(iris[1:4], 
+      main = "Scatterplot Matrix (Iris Data)", 
+      pch = 21, 
+      bg = c("red", "green3", "blue")[unclass(iris$Species)])
 
 ```
 

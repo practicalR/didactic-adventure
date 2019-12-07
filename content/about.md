@@ -14,11 +14,11 @@ tags: ["About", "Practical R"]
 
 # Practical R 
 
-Practical R, the blog, is built using Hugo, an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE).  Hugo provides the ability to combine Markdown, R Markdown and HTML content files and uses shortcodes for adding rich content. This lets me focus on the content, not the blog.  
+Practical R, the blog, is built using Hugo, an open source static site generator available under the [Apache Licence 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE).  Hugo provides the ability to combine Markdown, R Markdown and HTML content files and use shortcodes for easily adding rich content. Websites built with Hugo are extremely fast, secure and can be deployed anywhere.  Learn more or contribute on [GitHub](https://github.com/gohugoio). 
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere.  
+The content for the blog is created using the R *blogdown* package and RStudio.  The blogdown package produces a static website, meaning the website only consists of static files such as HTML, CSS, JavaScript, and images, so it's very easy to manage.  It also allows for developing content in R Markdown, which allows for easily embedding and sharing code and code output, including tables and plots.
 
-Learn more or contribute on [GitHub](https://github.com/gohugoio).  
+Combined, these let me focus on the content, not the mechanics of the blog.  So I can focus on producing content that might be both engaging and useful.
 
 # D.J. Forbes  
 
