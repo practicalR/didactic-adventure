@@ -1,25 +1,21 @@
 ---
-title: "About"
 aliases:
 - about-us
 - contact
-author: "DJ Forbes"
-description: "About Practical R"
+author: "D.J. Forbes"
 date: 2019-12-07T14:38-05:00
 publishdate: 2019-12-07T14:38-05:00
-categories: ["About"]
-tags: ["R Markdown", "R", "About", "Practical R"]
+description: "About Practical R"
+title: About
 slug: "about-practical-r"
-output:
-  blogdown::html_page:
-    toc: true
+tags: ["About", "Practical R"]
 ---
 
-# Practical R
+# Practical R 
 
 Practical R, the blog, is built using Hugo, an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE).  Hugo provides the ability to combine Markdown, R Markdown and HTML content files and uses shortcodes for adding rich content. This lets me focus on the content, not the blog.  
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere.
+Websites built with Hugo are extremely fast, secure and can be deployed anywhere.  
 
 Learn more or contribute on [GitHub](https://github.com/gohugoio).
 

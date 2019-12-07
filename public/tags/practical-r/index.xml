@@ -23,5 +23,19 @@ Learn more or contribute on GitHub.
 I first encountered R as a graduate student working on my Ph.D in 2011. I was looking for a tool to do analysis of a spatio-temporal data set. Commercial Geographic Information Systems (GIS) are not capable of doing that kind of analysis.</description>
     </item>
     
+    <item>
+      <title>About</title>
+      <link>/about-practical-r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about-practical-r/</guid>
+      <description>Practical R Practical R, the blog, is built using Hugo, an open source static site generator available under the Apache Licence 2.0.. Hugo provides the ability to combine Markdown, R Markdown and HTML content files and uses shortcodes for adding rich content. This lets me focus on the content, not the blog.
+Websites built with Hugo are extremely fast, secure and can be deployed anywhere.
+Learn more or contribute on GitHub.
+D.J. Forbes I have a passion for data science and the transformative power of data visualization and design to simplify and elevate communication and to engage and inspire people everywhere.
+I first encountered R as a graduate student working on my Ph.D in 2011. I was looking for a tool to do analysis of a spatio-temporal data set. Commercial Geographic Information Systems (GIS) are not capable of doing that kind of analysis.
+I fell immediately in love with R and have come to think of it as an extension (and in some cases, an enhancement) to conventional GIS software for geospatial analysis.</description>
+    </item>
+    
   </channel>
 </rss>

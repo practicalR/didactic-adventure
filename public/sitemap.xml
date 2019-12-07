@@ -133,11 +133,15 @@
   </url>
   
   <url>
+    <loc>/categories/about/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/about/</loc>
   </url>
   
   <url>
-    <loc>/categories/about/</loc>
+    <loc>/about-practical-r/</loc>
   </url>
   
   <url>
