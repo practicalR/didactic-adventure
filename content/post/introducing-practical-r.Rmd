@@ -76,7 +76,7 @@ hist(iris$Sepal.Width,
 
 # Data Science
 
-And together we will explore "doing" data science with R.  
+And together we will explore "doing" data science with R.
 
 ## Figure \@ref(fig:irisscattermatrix)  
 

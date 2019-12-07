@@ -18,7 +18,7 @@ Practical R, the blog, is built using Hugo, an open source static site generator
 
 The content for the blog is created using the R *blogdown* package and RStudio.  The blogdown package produces a static website, meaning the website only consists of static files such as HTML, CSS, JavaScript, and images, so it's very easy to manage.  It also allows for developing content in R Markdown, which allows for easily embedding and sharing code and code output, including tables and plots.
 
-Combined, these let me focus on the content, not the mechanics of the blog.  So I can focus on producing content that might be both engaging and useful.
+Combined, these let me focus on the content, not the mechanics of the blog.  So I can focus on producing content that might be both engaging and useful.  
 
 # D.J. Forbes  
 

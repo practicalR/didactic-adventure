@@ -146,7 +146,7 @@ h1 {
  */
 mark {
   background: #ff0;
-  color: #000; }
+  color: #3d5941; }
 
 /**
  * Address inconsistent and variable font size in all browsers.
@@ -413,7 +413,7 @@ a {
   text-decoration: none;
   transition: color .2s, opacity .2s, outline .2s; }
   a:focus, a:hover {
-    color: #000; }
+    color: #3d5941; }
   a:focus {
     outline: thin dotted;
     outline-offset: .3rem; }
@@ -548,13 +548,13 @@ input {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  color: #000;
+  color: #3d5941;
   line-height: 1.8;
   max-width: 100%;
   padding: 0 .5rem;
   transition: border-color .2s, box-shadow .2s; }
   input:focus, input:hover {
-    border-color: #000; }
+    border-color: #3d5941; }
   input:focus {
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
     outline: 0; }
@@ -602,7 +602,7 @@ input[type="submit"],
 input[type="button"] {
   border: 0;
   border-radius: .3rem;
-  background: #000;
+  background: #3d5941;
   color: #fff;
   display: inline-block;
   line-height: 1.8;
@@ -662,7 +662,7 @@ body > a[href="#content"] {
   .wrapper a {
     color: #767676; }
     .wrapper a:focus, .wrapper a:hover {
-      color: #000; }
+      color: #3d5941; }
 
 .content {
   display: -moz-flex;
@@ -771,13 +771,13 @@ main {
 .banner {
   position: relative; }
   .banner > a {
-    color: #000;
+    color: #3d5941;
     display: block;
     line-height: 1.4;
     padding: 0;
     white-space: normal; }
     .banner > a:focus, .banner > a:hover {
-      color: #000;
+      color: #3d5941;
       opacity: 0.8; }
     .banner > a:active {
       opacity: 0.4; }
@@ -790,7 +790,7 @@ main {
     margin: 0;
     padding: 0 1rem 1rem 1rem; }
   .banner nav {
-    background: #000;
+    background: #3d5941;
     color: #fff;
     position: relative; }
     .banner nav:before, .banner nav:after {
@@ -820,7 +820,7 @@ main {
     list-style: none;
     transition: opacity .2s, visibility .2s; }
     .banner ul ul {
-      background: #000;
+      background: #3d5941;
       box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
       color: #fff;
       opacity: 0;
@@ -856,7 +856,7 @@ main {
     -o-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    background: #000;
+    background: #3d5941;
     border: 0;
     border-radius: 0;
     color: #fff;
@@ -865,7 +865,7 @@ main {
     padding: 0 1rem; }
 
 .contentinfo {
-  background: #000;
+  background: #3d5941;
   color: #fff;
   line-height: 1;
   padding: 1rem; }
@@ -922,7 +922,7 @@ form.search input {
 .post-webcomic {
   width: 100%; }
   .post-webcomic nav {
-    background: #000;
+    background: #3d5941;
     color: #fff;
     text-align: center; }
     .post-webcomic nav.above {
