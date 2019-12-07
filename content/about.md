@@ -2,6 +2,7 @@
 aliases:
 - about-us
 - contact
+- about-practical-r
 author: "D.J. Forbes"
 date: 2019-12-07T14:38-05:00
 publishdate: 2019-12-07T14:38-05:00
