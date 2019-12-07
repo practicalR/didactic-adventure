@@ -6,6 +6,9 @@ publishdate: 2019-12-06T21:13:14-05:00
 categories: ["Introduction"]
 tags: ["R Markdown", "plot", "regression"]
 slug: "intro-practical-r"
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
 ```{r setup, include=FALSE}
@@ -14,32 +17,68 @@ knitr::opts_chunk$set(collapse = TRUE)
 # include a twitter card like this:
 # blogdown::shortcode('tweet', '852205086956818432')
 # must be inside a chunk
+
+# IMPORTANT:
+# Every blog post you write should aim to solve a problem, such as by educating, informing, or 
+# entertaining someone.
+
 ```
 
 # Introduction
 
-My name is D. J. Forbes, and I want to share practical R tips, tricks, and projects with you. I hope you find the site useful.
+Are you struggling to learn R so you can create banging data visualizations and produce data science projects that add value?  
 
-Topics covered include anything to do with R, especially new R packages, geospatial analysis using R, GIS and mapping with R, statistics with R, and data science with R. On occasion there may even be posts on NBA basketball statistics focused mainly on the San Antonio Spurs.
+> You are not alone.  Analyzing data is now common to a lot of professions that may not have any background in programming or computer science.  
 
-I’ll be sharing code like this:
+Are you full of excitement for your new R project but finding it difficult to quickly achieve the results you want and need?
 
-```{r cars}
-summary(cars)
-fit <- lm(dist ~ speed, data = cars)
-fit
+> Even coming from other programming languages may be problematic because R does some things a little bit differently.  
+
+Are you taking a course in R and finding that you can't keep up with the class and need some background?
+
+Or are you just interested in learning more about R and what R can do?
+
+> I would like to help you do more with R.  I want to inspire you to create your own data visualizations, master data science, or develop your own data stories.  I want to share practical R tips, tricks, and complete projects with you.  
+
+Topics covered include anything having to do with R.  This blog will focus especially on 
+
+* new R packages
+* geospatial analysis using R
+* GIS and mapping with R
+* statistics with R
+* data science with R. 
+
+> On occasion there may even be posts focused on NBA basketball statistics ([#GoSpursGo!](https://www.nba.com/spurs/)).
+
+Using both example data and "real" data, I’ll be sharing code like this:
+
+```{r iris}
+data(iris)
+str(iris)
+
 ```
 
-# Including Plots
+# Data Visualization
 
-I’ll be sharing data visualizations as well. See Figure \@ref(fig:pie) for an example:
+I’ll be sharing data visualizations as well, including mapping and GIS with R.  
 
-```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
-par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
-  col = c('#0292D8', '#F7EA39', '#C4B632'),
-  init.angle = -50, border = NA
-)
+See Figure \@ref(fig:hist) for an example:
+
+```{r hist, fig.cap="A histogram of Sepal Width measurements in Edar Anderson's Iris Data.", tidy=FALSE}
+hist(iris$Sepal.Width, 
+     main = "Histogram of Sepal Width", 
+     xlab = "Sepal Width", 
+     xlim = c(2,5), 
+     col = rcartocolor::carto_pal(2,"Fall"),
+     freq = TRUE)
 ```
+
+# Data Science
+
+Together we will explore "doing" data science with R.  See Figure \@ref(fig:irisscattermatrix).
+
+```{r irisscattermatrix}
+pairs(iris[1:4], main = "Scatterplot Matrix (Iris Data)", pch = 21, bg = c("red", "green3", "blue")[unclass(iris$Species)])
+
+```
+
