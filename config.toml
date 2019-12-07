@@ -1,0 +1,54 @@
+baseURL = "https://practicalr.netlify.com/"
+title = "Practical R"
+author = "DJ Forbes"
+theme = "inkblotty"
+paginate = 10
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+languageCode = "en-us"
+DefaultContentLanguage = "en-us"
+hasCJKLanguage = "false"
+
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+disqusShortname = ""
+googleAnalytics = ""
+
+summaryLength=150
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  page = "/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[Params]
+  readmore = true
+  author = "DJ Forbes"
+  dateFormat = "2006/01/02"
+  description = "A website built using R, RStudio, blogdown, Hugo and a lot of heart."
+
+[outputs]                          # c.f. https://gohugo.io/templates/output-formats/
+  home = ["HTML", "RSS"]
+  page =  ["HTML"]
+  section =  ["HTML", "RSS"]
+  taxonomyTerm =  ["HTML", "RSS"]
+  taxonomy =  ["HTML", "RSS"]
+
+[sitemap]
+  filename = "sitemap.xml"  # c.f. https://gohugo.io/templates/sitemap-template/#configure-sitemap-xml
+  
+[social]
+    github  = "https://github.com/practicalR/didactic-adventure"
+    twitter = "https://twitter.com/janieforbes"
