@@ -19,7 +19,7 @@ Websites built with Hugo are extremely fast, secure and can be deployed anywhere
 
 Learn more or contribute on [GitHub](https://github.com/gohugoio).
 
-# D.J. Forbes
+# D.J. Forbes  
 
 I have a passion for data science and the transformative power of data visualization and design to simplify and elevate communication and to engage and inspire people everywhere.  
 
