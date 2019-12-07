@@ -1,7 +1,7 @@
 ---
 title: This is a test
 author: DJ Forbes
-date: '2019-12-06'
+date: 2019-12-06T20:13:14-05:00
 slug: this-is-a-test.en-us
 categories:
   - Introduction
