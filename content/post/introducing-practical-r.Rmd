@@ -26,7 +26,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 # Introduction
 
-Are you struggling to learn R so you can create banging data visualizations and produce data science projects that add value?  
+Are you struggling to learn R so you can create beautiful and effect data visualizations and produce data science projects that add value?  
 
 > You are not alone.  Analyzing data is now common to a lot of professions that may not have any background in programming or computer science.  
 
