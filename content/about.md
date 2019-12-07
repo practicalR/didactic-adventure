@@ -18,7 +18,7 @@ Practical R, the blog, is built using Hugo, an open source static site generator
 
 Websites built with Hugo are extremely fast, secure and can be deployed anywhere.  
 
-Learn more or contribute on [GitHub](https://github.com/gohugoio).
+Learn more or contribute on [GitHub](https://github.com/gohugoio).  
 
 # D.J. Forbes  
 
